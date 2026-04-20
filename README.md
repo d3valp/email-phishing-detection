@@ -1,6 +1,6 @@
 # Phishing Email Detection with NLP, SQL, FastAPI, and Streamlit
 
-A recruiter-facing machine learning project that detects suspicious email content using **TF-IDF features** and a **classification pipeline**, then exposes predictions through **FastAPI** and a **Streamlit dashboard**.
+A learning project that detects suspicious email content using **TF-IDF features** and a **classification pipeline**, then exposes predictions through **FastAPI** and a **Streamlit dashboard**.
 
 ## Why this project matters
 
@@ -68,9 +68,3 @@ uvicorn api.main:app --reload
 ```bash
 streamlit run app/streamlit_app.py
 ```
-
-## Example CV bullets
-
-- Built an NLP-based phishing email detector using Python, scikit-learn, FastAPI, and Streamlit.
-- Trained and evaluated text classification models on a public phishing email corpus using TF-IDF features.
-- Packaged the model behind a prediction API and interactive UI for real-time scoring.
